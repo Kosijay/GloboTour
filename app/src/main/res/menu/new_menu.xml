@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragmentCityList"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_menu_home" />
+        <item
+            android:id="@+id/fragmentFavoriteList"
+            android:icon="@drawable/ic_favorite_filled"
+            android:title="@string/nav_menu_favorites"/>
+        <item
+            android:title="Whatever"
+            android:id="@+id/somethingNew"
+            android:icon="@drawable/ic_favorite_bordered"/>
+    </group>
+    <group>
+        <item android:title="G1"
+            android:id="@+id/It4">
+            <menu>
+                <item
+                    android:title="Item"
+                    android:id="@+id/It5"/>
+                <item
+                    android:title="Item"
+                    android:id="@+id/It6"/>
+
+            </menu>
+        </item>
+    </group>
+</menu>
