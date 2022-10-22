@@ -25,8 +25,8 @@ class ChatListFragment : Fragment() {
             R.id.action_settings -> {
                 val navHostFragment = activity?.supportFragmentManager?.findFragmentById(R.id.nav_host_frag) as NavHostFragment
                 val navController = navHostFragment.navController
-                val action = ChatListFragmentDirections.actionChatListToSettings()
-                navController.navigate(action)
+//                val action = ChatListFragmentDirections.actionChatListToSettings()
+//                navController.navigate(action)
                 return true
             }
         }

@@ -19,8 +19,8 @@ class SettingsFragment : Fragment() {
         view.setOnClickListener {
             val navHostFragment = activity?.supportFragmentManager?.findFragmentById(R.id.nav_host_frag) as NavHostFragment
             val navController = navHostFragment.navController
-            val action = SettingsFragmentDirections.actionSettingsToAccSettings()
-            navController.navigate(action)
+//            val action = SettingsFragmentDirections.actionSettingsToAccSettings()
+//            navController.navigate(action)
         }
 
         return view
