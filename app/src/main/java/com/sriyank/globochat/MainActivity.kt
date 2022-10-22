@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         }else{
             super.onBackPressed()
         }*/
-        //method 2 works only with required dependencies. does the same thing as 1 with less code. and new
+        //method 2 works only with required dependencies. does the same thingaaaa as 1 with less code. and new
         if(drawerLayout.isOpen){
             drawerLayout.close()
         }else{
