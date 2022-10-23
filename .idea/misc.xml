@@ -19,11 +19,11 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/GloboTour/app/src/main/res/layout/fragment_account_settings.xml" value="0.16485507246376813" />
         <entry key="..\:/Users/user/AndroidStudioProjects/GloboTour/app/src/main/res/layout/fragment_chat_list.xml" value="0.16485507246376813" />
         <entry key="..\:/Users/user/AndroidStudioProjects/GloboTour/app/src/main/res/layout/fragment_city_list.xml" value="0.33" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/GloboTour/app/src/main/res/layout/fragment_favorite.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GloboTour/app/src/main/res/layout/fragment_favorite.xml" value="0.16" />
         <entry key="..\:/Users/user/AndroidStudioProjects/GloboTour/app/src/main/res/layout/fragment_jay_touch.xml" value="0.16485507246376813" />
         <entry key="..\:/Users/user/AndroidStudioProjects/GloboTour/app/src/main/res/layout/fragment_settings.xml" value="0.16485507246376813" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/GloboTour/app/src/main/res/layout/list_item_city.xml" value="0.75" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/GloboTour/app/src/main/res/layout/list_item_favorite.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GloboTour/app/src/main/res/layout/list_item_city.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GloboTour/app/src/main/res/layout/list_item_favorite.xml" value="0.22" />
         <entry key="..\:/Users/user/AndroidStudioProjects/GloboTour/app/src/main/res/layout/nav_header.xml" value="0.16485507246376813" />
         <entry key="..\:/Users/user/AndroidStudioProjects/GloboTour/app/src/main/res/menu/activity_main_drawer_items.xml" value="0.2" />
         <entry key="..\:/Users/user/AndroidStudioProjects/GloboTour/app/src/main/res/menu/chat_list_menu.xml" value="0.2" />
