@@ -15,18 +15,4 @@
             android:id="@+id/somethingNew"
             android:icon="@drawable/ic_favorite_bordered"/>
     </group>
-    <group>
-        <item android:title="G1"
-            android:id="@+id/It4">
-            <menu>
-                <item
-                    android:title="Item"
-                    android:id="@+id/It5"/>
-                <item
-                    android:title="Item"
-                    android:id="@+id/It6"/>
-
-            </menu>
-        </item>
-    </group>
 </menu>
