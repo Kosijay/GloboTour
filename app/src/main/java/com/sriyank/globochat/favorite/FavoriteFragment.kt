@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.sriyank.globochat.R
+import com.sriyank.globochat.city.City
 import com.sriyank.globochat.city.CityAdapter
 import com.sriyank.globochat.city.VacationSpots
 
@@ -27,11 +28,12 @@ class FavoriteFragment : Fragment() {
         //get context of this fragment
         val context = requireContext()
         //create Adapter
-        val FavoriteAdapter = FavoriteAdapter(context, VacationSpots.cityList!!)
+        val favoriteCityList = VacationSpots.favoriteCityList as ArrayList<City> //the former way just populated the older recyclerview in the favorites section. this way adds the functionality of the addToFavorites button
+        val favoriteAdapter = FavoriteAdapter(context, favoriteCityList)
         //reinitialize recyclerview
         val recyclerView = view?.findViewById<RecyclerView>(R.id.favorite_recycler_view)
         //set Adapter
-        recyclerView?.adapter = FavoriteAdapter
+        recyclerView?.adapter = favoriteAdapter
         recyclerView?.setHasFixedSize(true)
 
         //define layoutManager and set it to recyclerView
