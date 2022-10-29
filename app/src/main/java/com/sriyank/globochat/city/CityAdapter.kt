@@ -65,8 +65,8 @@ class CityAdapter(val context : Context, val cityList : ArrayList<City>)
             currentCity?.isFavorite = !(currentCity?.isFavorite!!)  //toggle Boolean value of City.isFavorite
             //update icon
             if(currentCity?.isFavorite!!){      //if it is favorite, update city icon and add city object to favorite List
-                imvFavorite.setImageDrawable(icFavoriteFilledImg)
-                VacationSpots.favoriteCityList.add(currentCity!!)
+                imvFavorite.setImageDrawable(icFavoriteFilledImg)//changes the icon
+                VacationSpots.favoriteCityList.add(currentCity!!)//adds city object to favorites
             }else{      //else if not favorite, update city icon and remove from favorite list
                 imvFavorite.setImageDrawable(icFavoriteBorderedImg)
                 VacationSpots.favoriteCityList.remove(currentCity!!)
